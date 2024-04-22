@@ -18,13 +18,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $transactionId = $_POST["transaction_id"];
   $bookId = $_POST["book_id"];
   $memberId = $_POST["member_id"];
-  $transactionDate = $_POST["transaction_date"];
   $dueDate = $_POST["due_date"];
   $returnDate = $_POST["return_date"];
  
   // Insert data into transactions table
-  $sql = "INSERT INTO transactions (T_ID, BookID, MemberID, T_date, Due_Date, RuturnDate)
-  VALUES ('$transactionId', '$bookId', '$memberId', '$transactionDate', '$dueDate', '$returnDate')";
+  $sql = "INSERT INTO transactions (T_ID, BookID, MemberID, Due_Date, RuturnDate)
+  VALUES ('$transactionId', '$bookId', '$memberId', '$dueDate', '$returnDate')";
 
   if ($conn->query($sql) === TRUE) {
     // Success alert message
