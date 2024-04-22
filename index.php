@@ -9,19 +9,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9fafd;
+            background-color: #f7d8d8;
         }
 
         header {
-            background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)), url('./images/library.jpg') center center;
-            background-size: cover;
-            background-repeat: no-repeat;
+            background-color: #750b0b;
             color: rgba(255, 255, 255, 0.774);
             padding: 1em;
-            height: 40vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             text-align: center;
         }
 
@@ -37,7 +31,6 @@
         .container {
             display: flex;
             flex-wrap: wrap;
-            margin: 40px 170px;
             gap: 20px;
             justify-content: space-around;
         }
@@ -45,9 +38,9 @@
         .section {
             flex: 1;
             padding: 1em;
-            background-color: #fff;
+            background-color: #da9292;
             border-radius: 8px;
-            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .section h2 {
@@ -56,31 +49,6 @@
 
         .section p {
             color: #0f0f0f;
-        }
-
-        .title-head{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .nav{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            list-style-type: none;
-        }
-
-        .nav li{
-            background-color: dodgerblue;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 30px;
-        }
-
-        .nav li a{
-            text-decoration: none;
-            color: white;
         }
     </style>
 </head>

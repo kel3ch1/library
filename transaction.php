@@ -58,26 +58,23 @@ input[type="radio"] {
     </style>
 </head>
 <body>
-    <h1>Add New Item</h1>
-    <form action="borrowers.html" method="post">  <h3>Transaction details</h3>
+    <h1>Add New Transaction</h1>
+    <form action="add-transaction.php" method="post">  <h3>Transaction details</h3>
         <label for="Transaction ID">Transaction ID:</label>
-        <input type="text" name="Transaction ID" id="Transaction ID" required><br>
+        <input type="text" name="transaction_id" id="transaction ID" required><br>
 
         <label for="Book ID">Book ID:</label>
-        <input type="text" name="Book ID" id="Book ID" required><br>
+        <input type="text" name="book_id" id="Book ID" required><br>
 
 
         <label for="Member ID">Member ID:</label>
-        <input type="text" name="Member ID" id="Member ID" required><br>
-
-        <label for="Transaction Date">Transaction Date:</label>
-        <input type="date" name="Transaction Date" id="Transaction Date" required><br>
+        <input type="text" name="member_id" id="Member ID" required><br>
 
         <label for="Due Date">Due Date:</label>
-        <input type="date" name="Due Date" id="Due Date" required><br>
+        <input type="date" name="due_date" id="Due Date" required><br>
 
-        <label for="Return Date">Return Date:</label>
-        <input type="date" name="Return Date" id="Return Date" required><br>
+        <label for="Ruturn Date">Ruturn Date:</label>
+        <input type="date" name="ruturn_date" id="Ruturn Date" required><br>
 
 
         

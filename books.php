@@ -58,32 +58,24 @@ input[type="radio"] {
     </style>
 </head>
 <body>
-    <h1>Add New Item</h1>
-    <form action="borrowers.html" method="post">  <h3>Book Details</h3>
+    <h1>Add New Books</h1>
+    <form action="add-books.php" method="post">  <h3>Book Details</h3>
         <label for="name">Book ID:</label>
         <input type="text" name="name" id="name" required><br>
 
         <label for="title">Title of the book:</label>
         <input type="text" name="title" id="title" required><br>
 
-        <label for="author">Author(s):</label>
-        <input type="text" name="author" id="author" required><br>
+      
 
         <label for="Publication Year">Publication Year:</label>
-        <input type="text" name="Publication Year" id="Publication Year" required><br>
+        <input type="text" name="publication Year" id="publication Year" required><br>
 
-        <h3>Category</h3>
-        <select name="category" id="category">
-            <option value="">Select Category</option>
-            <option value="Fiction">Fiction</option>
-            <option value="Non-Fiction">Non-Fiction</option>
-            <option value="Reference">Reference</option>
-            <option value="Biography">Biography</option>
-        </select><br>
+        
 
         
         <h3> Quantity Available</h3>
-        <label for="Quantity Available">Quantity Available:</label>
+        <label for="quantity Available">Quantity Available:</label>
         <input type="radio" name="available" id="available" value="10" checked> 10
         <input type="radio" name="available" id="unavailable" value="20"> 20<br>
         <input type="radio" name="available" id="available" value="30" checked> 30

@@ -58,21 +58,21 @@ input[type="radio"] {
     </style>
 </head>
 <body>
-    <h1>Add New Item</h1>
-    <form action="borrowers.html" method="post">  <h3>Staff Details</h3>
+    <h1>Add New Staff</h1>
+    <form action="add-staff.php" method="post">  <h3>Staff Details</h3>
         <label for="name">Name of individual:</label>
         <input type="text" name="name" id="name" required><br>
 
         <label for="phone number">Phone number:</label>
-        <input type="text" name="phone number" id="phone number" required><br>
+        <input type="text" name="phone_number" id="phone number" required><br>
 
 
         <label for="Staff ID">Staff ID:</label>
-        <input type="text" name="Staff ID" id="Staff ID" required><br>
+        <input type="text" name="staff_id" id="staff id" required><br>
 
 
         <h3>Position</h3>
-        <select name="Position" id="Position">
+        <select name="position" id="position">
             <option value="">Select Position</option>
             <option value="Manager">Manager</option>
             <option value="Library keeper">Library keeper</option>

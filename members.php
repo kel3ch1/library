@@ -58,7 +58,7 @@ input[type="radio"] {
     </style>
 </head>
 <body>
-    <h1>Add New Item</h1>
+    <h1>Add a new member</h1>
     <form action="add-member.php" method="post">  <h3>MEMBERS REGISTERATION FORM</h3>
         <label for="name">First Name:</label>
         <input type="text" name="first_name" id="name" required><br>
