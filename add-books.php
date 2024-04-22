@@ -15,14 +15,14 @@ if ($conn->connect_error) {
 
 // Process form data when form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = $_POST["name"];
+  $bookId = $_POST["book_id"];
   $title = $_POST["title"];
-  $quantityAvailable = $_POST["quantity_available"];
-  $publicationYear = $_POST["publication_year"];
+  $pubyear = $_POST["publication_year"];
+  $quantity = $_POST["quantity_available"];
  
   // Insert data into database
-  $sql = "INSERT INTO staff (BookID, Title, Pubyear, Quantity)
-  VALUES ('$name', '$title', '$pulicationYear', '$quantityAvailable')";
+  $sql = "INSERT INTO books (BookID, Title, Pubyear, Quantity)
+  VALUES ('$bookId', '$title', '$pubyear', '$quantity')";
 
   if ($conn->query($sql) === TRUE) {
     // Success alert message
