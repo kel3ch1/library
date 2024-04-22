@@ -69,9 +69,9 @@
 
         <label for="Member ID">Member ID:</label>
         <input type="text" name="member_id" id="Member ID" required><br>
-
+<!-- 
         <label for="Transaction Date">Transaction Date:</label>
-        <input type="date" name="transaction_date" id="Transaction Date" required><br>
+        <input type="date" name="transaction_date" id="Transaction Date" required><br> -->
 
         <label for="Due Date">Due Date:</label>
         <input type="date" name="due_date" id="Due Date" required><br>
