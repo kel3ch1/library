@@ -59,21 +59,21 @@ input[type="radio"] {
 </head>
 <body>
     <h1>Add New Item</h1>
-    <form action="borrowers.html" method="post">  <h3>MEMBERS REGISTERATION FORM</h3>
+    <form action="add-member.php" method="post">  <h3>MEMBERS REGISTERATION FORM</h3>
         <label for="name">First Name:</label>
-        <input type="text" name="name" id="name" required><br>
+        <input type="text" name="first_name" id="name" required><br>
 
         <label for="name"> Last Name:</label>
-        <input type="text" name="name" id="name" required><br>
+        <input type="text" name="last_name" id="name" required><br>
 
         <label for="phone number">Phone number:</label>
-        <input type="text" name="phone number" id="phone number" required><br>
+        <input type="text" name="phone_number" id="phone number" required><br>
 
         <label for="Membership ID">Membership ID:</label>
-        <input type="text" name="Membership ID" id="Membership ID" required><br>
+        <input type="text" name="membership_id" id="Membership ID" required><br>
 
         <h3>Membership Year</h3>
-        <select name="Membership Year" id="Membership Year">
+        <select name="membership_year" id="Membership Year">
             <option value="">Select Membership Year</option>
             <option value="2000">2000</option>
             <option value="2001">2001</option>
@@ -104,12 +104,12 @@ input[type="radio"] {
 
         <h3>Age</h3>
         <label for="Age">Age:</label>
-        <input type="radio" name="Age" id="available" value="less than 18" checked> less than 18
-        <input type="radio" name="Age" id="unavailable" value="18 - 25"> 18 - 25<br>
-        <input type="radio" name="Age" id="available" value="26 - 35" checked> 26 - 35
-        <input type="radio" name="Age" id="unavailable" value="36 - 45"> 36 - 45<br>
-        <input type="radio" name="Age" id="available" value="46 - 55" checked> 46 - 55
-        <input type="radio" name="Age" id="unavailable" value="from 56 and above"> from 56 and above<br>
+        <input type="radio" name="age" id="available" value="less than 18" checked> less than 18
+        <input type="radio" name="age" id="unavailable" value="18 - 25"> 18 - 25<br>
+        <input type="radio" name="age" id="available" value="26 - 35" checked> 26 - 35
+        <input type="radio" name="age" id="unavailable" value="36 - 45"> 36 - 45<br>
+        <input type="radio" name="age" id="available" value="46 - 55" checked> 46 - 55
+        <input type="radio" name="age" id="unavailable" value="from 56 and above"> from 56 and above<br>
 
         <input type="submit" value="SUBMIT">
        
