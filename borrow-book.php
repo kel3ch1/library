@@ -2,7 +2,7 @@
 // Database credentials
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "kelly";
 $dbname = "librarymanagement";
 
 // Create connection
