@@ -113,7 +113,7 @@
             // Establishing connection
             $servername = "localhost";
             $username = "root";
-            $password = "kelly";
+            $password = "";
             $database = "librarymanagement";
 
             $conn = new mysqli($servername, $username, $password, $database);

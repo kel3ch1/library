@@ -59,7 +59,7 @@ g
 </head>
 <body>
     <h1>Add New Item</h1>
-    <form action="borrowers.php" method="post">  <h3>Borrowing Details</h3>
+    <form action="borrow-book.php" method="post">  <h3>Borrowing Details</h3>
         <label for="Borrowing ID">Borrowing ID:</label>
         <input type="text" name="Borrowing ID" id="Borrowing ID" required><br>
 
